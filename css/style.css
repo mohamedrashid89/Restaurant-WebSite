@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+
+}
+nav{
+    box-shadow: 5px 5px 5px rgb(141, 136, 115);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background-color: #d1eeae;
+    padding: 20px;
+    z-index: 50;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar_icon{
+    font-size: 45px;
+
+}
+.hero{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tag{
+    background-color: rgb(7, 146, 19);
+    color: white;
+    padding: 5px 20px;
+    align-self: flex-start;
+}
+.hero_content h1{
+    font-size: 75px;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+.explore_btn{
+    background-color: #ffc066;
+    align-self: flex-start;
+    padding: 10px 5px;
+    border: 0;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.features{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.feature{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+.divider{
+    border: 1px solid #666;
+    margin: 50px 0;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+    align-items: center;
+}
+.menu .tag{
+    font-weight: 600;
+    align-self: center;       
+}
+.grid-image{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    transition: 0.3d ease;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+    bottom: 400px;
+}
+.item1{
+    grid-area: I1;
+    
+}
+
+.item2{
+    grid-area: I2;
+
+}
+.item3{
+    grid-area: I3;
+}
+.item4{
+   
+    grid-area: I4;
+    
+}
+.item5{
+    grid-area: I5;
+
+}
+.item6{
+    grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+.grid-image:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+
+
+.footer_container{
+    display: flex;
+    padding: 40px;
+    justify-content: right;
+    justify-content: space-around;
+    background-color: #c8e6b7;
+}
+.footer_logo{
+    padding: 20px;
+    
+}
+.footer_link ul{
+    margin-top: 15px;
+    list-style: none;
+}
+.news_letter h3{
+    margin-bottom: 10px;
+}
+.news_letter input{
+    padding: 4px 20px;
+    margin-bottom: 10px
+}
+.icon_container{
+    display: flex;
+
+    gap: 20px;
+    font-size: 32px;
+
+}
